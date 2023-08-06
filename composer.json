@@ -1,0 +1,25 @@
+{
+    "name": "penguin/penguin-dev",
+    "type": "composer-plugin",
+    "autoload": {
+        "psr-4": {
+            "Penguin\\Composer\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "thuanvp012van",
+            "email": "thuanvp012van@gmail.com"
+        }
+    ],
+    "require": {
+        "composer-plugin-api": "^2.0"
+    },
+    "require-dev": {
+        "composer/composer": "^2.0"
+    },
+    "extra": {
+       "class": "Penguin\\Composer\\PenguinPlugin"
+    }
+}
