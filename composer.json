@@ -14,7 +14,9 @@
         }
     ],
     "require": {
-        "composer-plugin-api": "^2.0"
+        "composer-plugin-api": "^2.0",
+        "penguin/config": "dev-main",
+        "penguin/container": "dev-main"
     },
     "require-dev": {
         "composer/composer": "^2.0"

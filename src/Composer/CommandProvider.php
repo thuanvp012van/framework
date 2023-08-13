@@ -6,8 +6,10 @@ use Composer\Plugin\Capability\CommandProvider as CommandProviderCapability;
 
 class CommandProvider implements CommandProviderCapability
 {
-    public function getCommands()
+    public function __construct(protected Composer $composer) {}
+
+    public function getCommands(): array
     {
-        return array(new StartCommand);
+        return [new StartCommand];
     }
 }
