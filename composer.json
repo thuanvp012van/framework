@@ -3,7 +3,7 @@
     "type": "composer-plugin",
     "autoload": {
         "psr-4": {
-            "Penguin\\Composer\\": "src/"
+            "Penguin\\": "src/"
         }
     },
     "minimum-stability": "dev",
