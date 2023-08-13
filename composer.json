@@ -1,5 +1,5 @@
 {
-    "name": "penguin/penguin-dev",
+    "name": "penguin/framework",
     "type": "composer-plugin",
     "autoload": {
         "psr-4": {
